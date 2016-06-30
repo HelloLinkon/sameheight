@@ -5,7 +5,17 @@ body{
 
 }
 
-.parent{
+.title{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.title h1,p{
+	margin: 0;
+	padding: 0;
+}
+
+.parent, #box{
 	margin: 20px;
 }
 
@@ -18,9 +28,39 @@ body{
 	padding: 15px;
 	box-sizing: border-box;
 	vertical-align: top;
-	
+
 }
 
 .child:first-child{
 	margin-left: 0;
+}
+
+.color1{
+
+	background: #0099e5;
+}
+
+.color2{
+
+	background: #ff4c4c;
+}
+
+.color3{
+
+	background: #34bf49;
+}
+
+.color4{
+
+	background: #ffdd00;
+}
+
+.color5{
+
+	background: #a4c639;
+}
+
+.color6{
+
+	background: #8996a0;
 }
