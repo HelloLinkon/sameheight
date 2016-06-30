@@ -1,0 +1,26 @@
+body{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+.parent{
+	margin: 20px;
+}
+
+.child{
+	width: 30%;
+	margin-left: 4%;
+	display: inline-block;
+	text-align: justify;
+	background: #ededed;
+	padding: 15px;
+	box-sizing: border-box;
+	vertical-align: top;
+	
+}
+
+.child:first-child{
+	margin-left: 0;
+}
